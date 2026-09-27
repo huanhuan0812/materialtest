@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MaterialIconsRound-Regular.otf</file>
+    </qresource>
+</RCC>
