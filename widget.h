@@ -15,4 +15,5 @@ private:
     material::Icon::TextIcon* m_textIcon;
     material::input::Button* m_button,*m_outlinedButton,*m_elevatedButton,*m_filledTonalButton,*m_textButton;
     
+    material::text::Label* m_label;
 };

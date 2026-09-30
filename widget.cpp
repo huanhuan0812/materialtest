@@ -25,6 +25,9 @@ Widget::Widget(QWidget *parent)
     m_textButton->setGeometry(100, 280, 150, 50);
     m_textButton->setButtonType(material::input::ButtonType::Text);
 
+    m_label = new material::text::Label("Hello, World!", this);
+    m_label->setGeometry(100, 340, 150, 50);
+
     connect(m_outlinedButton, &material::input::Button::clicked, this, [this]() {
         material::globalTheme().setScheme(material::globalTheme().getScheme() == material::global::Scheme::Light ? material::global::Scheme::Dark : material::global::Scheme::Light);
     });

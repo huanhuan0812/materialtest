@@ -75,6 +75,9 @@ qt_add_executable(materialtest
     QtMaterial/window/Window.cpp
     QtMaterial/input/Button.hpp
     QtMaterial/input/Button.cpp
+    QtMaterial/text/Label.hpp
+    QtMaterial/text/Label.cpp
+    QtMaterial/text/Text.hpp
 )
 
 target_link_libraries(materialtest PRIVATE

@@ -6,3 +6,4 @@
 #include "global/SeedColors.hpp"
 #include "window/Window.hpp"
 #include "input/Button.hpp"
+#include "text/Label.hpp"
